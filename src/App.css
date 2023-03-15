@@ -1,0 +1,28 @@
+.active{
+  border-bottom: 2px solid rgb(255, 244, 244);
+  padding-bottom: 5px;
+}
+
+a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(255, 244, 244) !important;
+}
+
+.glass{
+background: rgba(153, 153, 153, 0.82);
+border-radius: 6px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+}
+
+.textDark{
+  color: black !important;
+}
+
+.d-flex{
+  display: flex !important;
+}
