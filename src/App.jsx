@@ -9,19 +9,19 @@ import logo from "./assets/home/logo.svg"
 function App() {
 
   return (
-    <div className="App">
+    <div className="App bg-gradient-to-r from-[#000428] to-[#003461] h-[41.3rem]">
       <Router>
       <div className='flex justify-between px-[6rem] max-[768px]:px-[3rem] py-8'>
         <img className='max-[768px]:hidden' src={logo} alt="logo" />
         <div className='glass p-3'>
-        <NavLink className='mx-5 hover:border-b-2' to="/">00 Home</NavLink>
+        <NavLink className='mx-5 hover:border-b-2' to="/space-tourism/">00 Home</NavLink>
         <NavLink className='mx-5 hover:border-b-2' to="/destination">01 Destination</NavLink>
         <NavLink className='mx-5 hover:border-b-2' to="/crew">02 Crew</NavLink>
         <NavLink className='mx-5 hover:border-b-2' to="/technology">03 Technology</NavLink>
         </div>
         </div>
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/space-tourism/' element={<Home />}/>
           <Route path='/destination' element={<Destination />}/>
           <Route path='/crew' element={<Crew />}/>
           <Route path='/technology' element={<Technology />}/>
